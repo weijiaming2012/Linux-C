@@ -21,5 +21,8 @@ int main()
 
 	char *s="abcdefgh123";
 	printf("%d %d\n",strlen(s),sizeof(s));
+
+	char ss[20]={'a','c','\0','o'};
+	printf("%d %d\n",strlen(ss),sizeof(ss));
 	return 0;
 }
